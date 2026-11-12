@@ -1,0 +1,45 @@
+{
+    "project": "DeliveryIQ",
+    "selected_model": "HistGradientBoosting",
+    "test_rows": 10000,
+    "mae_minutes": 2.783235445495393,
+    "mse": 13.554755652447074,
+    "rmse_minutes": 3.6816783743894677,
+    "median_absolute_error_minutes": 2.1996221806861698,
+    "r2": 0.9893289245048662,
+    "cv_mae_minutes": 2.837481371638283,
+    "features": [
+        "Order_Date",
+        "Order_Hour",
+        "Day_of_Week",
+        "Is_Weekend",
+        "Is_Festival",
+        "Weather",
+        "Pickup_Zone",
+        "Dropoff_Zone",
+        "Vehicle_Type",
+        "Rider_Experience_Years",
+        "Rider_Rating",
+        "Restaurant_Rating",
+        "Cuisine_Type",
+        "Order_Items",
+        "Restaurant_Load",
+        "Preparation_Time_Min",
+        "Road_Distance_km",
+        "Delivery_Distance_Category",
+        "Traffic_Level",
+        "Number_of_Signals",
+        "Delivery_Priority"
+    ],
+    "dropped_columns": [
+        "Average_Speed_kmph",
+        "Order_ID",
+        "Time_taken_min"
+    ],
+    "data_quality": {
+        "rows_before": 50000,
+        "rows_after": 50000,
+        "duplicates_or_invalid_target_removed": 0,
+        "missing_values_by_column": {}
+    }
+}

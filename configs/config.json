@@ -1,0 +1,23 @@
+
+{
+    "target_column": "Time_taken_min",
+
+    "test_size": 0.20,
+
+    "random_state": 42,
+
+    "cv_folds": 3,
+
+    "tuning_n_iter": 3,
+
+    "tuning_cv_folds": 3,
+
+    "leakage_columns": [
+        "Average_Speed_kmph",
+        "actual_delivery_time",
+        "delivery_duration",
+        "time_taken",
+        "time_taken_min",
+        "target"
+    ]
+}

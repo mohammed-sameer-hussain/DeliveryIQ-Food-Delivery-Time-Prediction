@@ -1,0 +1,2 @@
+# Optional extension; install only after the core project works.
+xgboost>=3.1
